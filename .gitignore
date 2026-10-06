@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database / local user data
+*.db
+anonymous_user.txt
+
+# RAG generated vector index
+rag/faiss_index/
+
+# IDE settings
+.vscode/
+
+# Project-specific local agent files
+.agents/
+
+# Old Groq test file
+groq_test.py
+
+# Streamlit
+.streamlit/secrets.toml
